@@ -21,11 +21,11 @@
                      Margin="10,36,10,0" TextWrapping="Wrap" Text="" 
                      VerticalAlignment="Top" Grid.ColumnSpan="3"/>
             <ComboBox x:Name="cbAuthors" Margin="10,90,10,0" VerticalAlignment="Top" 
-                      SelectionChanged="Selection_Changed" />
+                      SelectionChanged="SelectAuthor" />
             <ComboBox x:Name="cbGenres" Margin="10,90,10,0" VerticalAlignment="Top" 
-                      Grid.Column="1" SelectionChanged="Selection_Changed" />
+                      Grid.Column="1" SelectionChanged="SelectAuthor" />
             <ComboBox x:Name="cbYear" Margin="10,90,10,0" VerticalAlignment="Top" 
-                      Grid.Column="2" SelectionChanged="Selection_Changed" />
+                      Grid.Column="2" SelectionChanged="SelectAuthor" />
         </Grid>
         <ScrollViewer Margin="0,120,0,0">
             <StackPanel x:Name="parent">
